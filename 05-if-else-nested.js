@@ -52,3 +52,27 @@ function dreamJob(gotplacement) {
    eligibleVote(18);
    eligibleVote(140);
    eligibleVote(null);
+
+
+   var marriageEligibility = function  ( gender , age) {
+
+    if (gender=="Male" && age>=21 || gender=="Female" && age>=18 ) {
+
+        console.log(`Marriage Eligibility: YES :Gender : ${gender}: Age : ${age} `);
+        
+        
+    } else {
+        console.log(`Marriage Elilgibility: NO : Gender: ${gender}: Age: ${age}`);
+        
+    }
+
+    
+
+
+   }
+   
+   marriageEligibility("Male", 17);
+   marriageEligibility("Female", 21);
+   marriageEligibility("Female", 16);
+   marriageEligibility("Male", 28);
+
