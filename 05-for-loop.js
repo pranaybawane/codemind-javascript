@@ -39,3 +39,13 @@ for (let index = 40; index > 0; index= index -4) {
     
     
 }
+
+
+var index = 0 ;
+
+for (let index = 0; index < 13 ; index= index+2) {
+    
+    console.log(`${index}`);
+    
+    
+}
