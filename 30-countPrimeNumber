@@ -1,0 +1,35 @@
+function isPrime(num) {
+    if (num < 2) return false;
+    for (let i = 2; i < num; i++) { 
+
+        if (num % i === 0) 
+            
+            return false;
+    }
+
+    return true;
+}
+
+const array = [3, 9, 7, 6, 19, 29, 53];
+let primeCount = 0;
+
+for (let i = 0; i < array.length; i++) {
+
+    if (isPrime(array[i])) {
+
+        primeCount++;
+    }
+}
+
+console.log("array = [3, 9, 7, 6, 19, 29, 53]");
+
+
+console.log("Number of prime numbers in given array :", primeCount);
+
+
+
+
+
+
+
+
