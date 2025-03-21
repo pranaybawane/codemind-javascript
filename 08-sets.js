@@ -20,3 +20,5 @@ console.log(array);
 const newArray = [...new Set(array)]               ///           (...new Set(  ) 
 
 console.log(newArray);
+
+
